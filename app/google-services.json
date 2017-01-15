@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "689340893975",
+    "firebase_url": "https://deepnap-50832.firebaseio.com",
+    "project_id": "deepnap-50832",
+    "storage_bucket": "deepnap-50832.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:689340893975:android:a8bbcc7ac6df81cb",
+        "android_client_info": {
+          "package_name": "com.example.chaemingyun.deep_nap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "689340893975-bh6c6auhhokgbns4t25bamaa57qrsgff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chaemingyun.deep_nap",
+            "certificate_hash": "CF1CC4BA499737E90029A4AC47ADF75DD6BA7254"
+          }
+        },
+        {
+          "client_id": "689340893975-c4l7qaq6754dc71obmdlvg7ut5pgaus9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMnt679JrfTTNct4DQDvqOlwZTNkD2NwI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "689340893975-c4l7qaq6754dc71obmdlvg7ut5pgaus9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
