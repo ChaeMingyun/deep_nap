@@ -25,8 +25,10 @@ dependencies {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
     compile 'com.android.support:appcompat-v7:25.1.0'
-    //firebase
+    //Firebase
     compile 'com.google.firebase:firebase-database:10.0.1'
+    //ButterKnife
+    compile 'com.jakewharton:butterknife:7.0.1'
     testCompile 'junit:junit:4.12'
     compile files('libs/core-2.2.jar')
 }
