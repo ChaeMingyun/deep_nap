@@ -31,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
     private BluetoothAdapter btAdapter = null;
     private BluetoothSocket btSocket = null;
     private OutputStream outStream = null;
+    private String seatStr;
 
     // Well known SPP UUID
     private static final UUID MY_UUID =
@@ -47,8 +48,10 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Log.d(TAG, "In onCreate()");
         ButterKnife.bind(this);
+
+        Intent intent=getIntent();
+        seatStr=intent.getStringExtra("seat");
 
         btAdapter = BluetoothAdapter.getDefaultAdapter();
         checkBTState();
@@ -84,7 +87,7 @@ public class MainActivity extends AppCompatActivity {
                         .setPositiveButton("확인", new DialogInterface.OnClickListener(){
                             // 확인 버튼 클릭시 설정
                             public void onClick(DialogInterface dialog, int whichButton){
-                                sendData(String.valueOf(position));
+                                sendData(seatStr+String.valueOf(position));
                                 Toast.makeText(MainActivity.this,"목적지 설정이 완료되었습니다.",Toast.LENGTH_SHORT).show();
                             }
                         })
