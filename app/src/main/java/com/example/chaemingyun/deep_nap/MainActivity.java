@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         adapter.addItem(ContextCompat.getDrawable(this,R.drawable.busstop),"송도유원지","38-088");
         adapter.addItem(ContextCompat.getDrawable(this,R.drawable.busstop),"원흥아파트","38-336");
         adapter.addItem(ContextCompat.getDrawable(this,R.drawable.busstop),"인하대역","37-091");
+        adapter.addItem(ContextCompat.getDrawable(this,R.drawable.busstop),"인하대정문","37-099");
         adapter.addItem(ContextCompat.getDrawable(this,R.drawable.busstop),"장미아파트","37-092");
         adapter.addItem(ContextCompat.getDrawable(this,R.drawable.busstop),"학익시장","37-080");
         adapter.addItem(ContextCompat.getDrawable(this,R.drawable.busstop),"법원,검찰청","37-074");
